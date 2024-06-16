@@ -1,0 +1,854 @@
+ 16-06-2024 05:40:20:816 [pid=3006 tid=3006] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 05:40:20:816 [pid=3006 tid=3006] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 05:40:20:817 [pid=3006 tid=3006] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:20:817 [pid=3006 tid=3006] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:20:818 [pid=3006 tid=3006] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:20:822 [pid=3006 tid=3006] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 05:40:20:822 [pid=3006 tid=3006] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 05:40:20:822 [pid=3006 tid=3006] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 05:40:42:439 [pid=3024 tid=3024] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 05:40:42:439 [pid=3024 tid=3024] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 05:40:42:439 [pid=3024 tid=3024] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:42:440 [pid=3024 tid=3024] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:42:440 [pid=3024 tid=3024] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 05:40:42:444 [pid=3024 tid=3024] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 05:40:42:444 [pid=3024 tid=3024] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 05:40:42:444 [pid=3024 tid=3024] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 06:43:03:929 [pid=3293 tid=3293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:43:03:930 [pid=3293 tid=3293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:43:03:930 [pid=3293 tid=3293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:43:03:930 [pid=3293 tid=3293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:43:03:930 [pid=3293 tid=3293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:43:03:933 [pid=3293 tid=3293] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 06:43:03:933 [pid=3293 tid=3293] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 06:43:03:933 [pid=3293 tid=3293] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 06:48:50:793 [pid=3395 tid=3395] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:48:50:793 [pid=3395 tid=3395] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:48:50:794 [pid=3395 tid=3395] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:48:50:794 [pid=3395 tid=3395] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:48:50:794 [pid=3395 tid=3395] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:48:50:797 [pid=3395 tid=3395] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 06:48:50:797 [pid=3395 tid=3395] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 06:48:50:797 [pid=3395 tid=3395] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 06:54:50:463 [pid=3423 tid=3423] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:54:50:463 [pid=3423 tid=3423] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 06:54:50:463 [pid=3423 tid=3423] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:54:50:464 [pid=3423 tid=3423] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:54:50:464 [pid=3423 tid=3423] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 06:54:50:465 [pid=3423 tid=3423] ERROR  cufio:227 cuFileHandleRegister error, invalid file descriptor: -1
+ 16-06-2024 06:54:50:465 [pid=3423 tid=3423] ERROR  cufio:339 cuFileHandleRegister error: invalid arguments
+ 16-06-2024 06:54:50:465 [pid=3423 tid=3423] ERROR  cufio-obj:60 cuFile error fetching fd, invalid CUfileHandle
+ 16-06-2024 06:54:50:465 [pid=3423 tid=3423] ERROR  cufio:422 invalid filehandle to cuFileRead
+ 16-06-2024 06:54:50:469 [pid=3423 tid=3423] ERROR  cufio-obj:60 cuFile error fetching fd, invalid CUfileHandle
+ 16-06-2024 06:54:50:469 [pid=3423 tid=3423] ERROR  cufio:488 invalid filehandle to cuFileWrite: fd -22
+ 16-06-2024 07:01:20:433 [pid=3450 tid=3450] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:01:20:433 [pid=3450 tid=3450] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:01:20:434 [pid=3450 tid=3450] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:01:20:434 [pid=3450 tid=3450] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:01:20:434 [pid=3450 tid=3450] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:01:20:435 [pid=3450 tid=3450] ERROR  cufio:227 cuFileHandleRegister error, invalid file descriptor: -1
+ 16-06-2024 07:01:20:435 [pid=3450 tid=3450] ERROR  cufio:339 cuFileHandleRegister error: invalid arguments
+ 16-06-2024 07:01:20:435 [pid=3450 tid=3450] ERROR  cufio-obj:60 cuFile error fetching fd, invalid CUfileHandle
+ 16-06-2024 07:01:20:435 [pid=3450 tid=3450] ERROR  cufio:422 invalid filehandle to cuFileRead
+ 16-06-2024 07:01:20:439 [pid=3450 tid=3450] ERROR  cufio-obj:60 cuFile error fetching fd, invalid CUfileHandle
+ 16-06-2024 07:01:20:439 [pid=3450 tid=3450] ERROR  cufio:488 invalid filehandle to cuFileWrite: fd -22
+ 16-06-2024 07:03:08:962 [pid=3498 tid=3498] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:08:962 [pid=3498 tid=3498] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:08:962 [pid=3498 tid=3498] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:08:963 [pid=3498 tid=3498] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:08:964 [pid=3498 tid=3498] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:43:488 [pid=3505 tid=3505] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:43:488 [pid=3505 tid=3505] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:43:489 [pid=3505 tid=3505] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:43:489 [pid=3505 tid=3505] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:43:489 [pid=3505 tid=3505] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:48:165 [pid=3544 tid=3544] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:48:165 [pid=3544 tid=3544] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:03:48:166 [pid=3544 tid=3544] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:48:166 [pid=3544 tid=3544] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:03:48:167 [pid=3544 tid=3544] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:12:362 [pid=5903 tid=5903] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:50:12:362 [pid=5903 tid=5903] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:50:12:363 [pid=5903 tid=5903] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:12:363 [pid=5903 tid=5903] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:12:364 [pid=5903 tid=5903] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] ERROR  cufio_core:1549 cuFileBufRegister checks failed: -5014
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] ERROR  cufio_core:1581 cuFile buffer object device memory check failed
+ 16-06-2024 07:50:12:482 [pid=5903 tid=5903] ERROR  cufio_core:1704 cuFileBufRegister error pointer range exceeds allocated address range
+ 16-06-2024 07:50:12:624 [pid=5903 tid=5903] ERROR  cufio-px:503 cuMemcpy error, cufile_posix_read failed fd: 33 cu_result: 1
+ 16-06-2024 07:50:12:629 [pid=5903 tid=5903] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 07:50:12:629 [pid=5903 tid=5903] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 07:50:47:813 [pid=5912 tid=5912] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:50:47:813 [pid=5912 tid=5912] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:50:47:813 [pid=5912 tid=5912] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:47:814 [pid=5912 tid=5912] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:47:814 [pid=5912 tid=5912] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] ERROR  cufio_core:1549 cuFileBufRegister checks failed: -5014
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] ERROR  cufio_core:1581 cuFile buffer object device memory check failed
+ 16-06-2024 07:50:47:930 [pid=5912 tid=5912] ERROR  cufio_core:1704 cuFileBufRegister error pointer range exceeds allocated address range
+ 16-06-2024 07:50:48:73 [pid=5912 tid=5912] ERROR  cufio-px:503 cuMemcpy error, cufile_posix_read failed fd: 33 cu_result: 1
+ 16-06-2024 07:50:48:77 [pid=5912 tid=5912] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 07:50:48:77 [pid=5912 tid=5912] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 07:51:55:760 [pid=6005 tid=6005] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:51:55:760 [pid=6005 tid=6005] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:51:55:761 [pid=6005 tid=6005] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:55:761 [pid=6005 tid=6005] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:55:761 [pid=6005 tid=6005] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] ERROR  cufio_core:1549 cuFileBufRegister checks failed: -5014
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] ERROR  cufio_core:1581 cuFile buffer object device memory check failed
+ 16-06-2024 07:51:55:876 [pid=6005 tid=6005] ERROR  cufio_core:1704 cuFileBufRegister error pointer range exceeds allocated address range
+ 16-06-2024 07:51:56:23 [pid=6005 tid=6005] ERROR  cufio-px:503 cuMemcpy error, cufile_posix_read failed fd: 33 cu_result: 1
+ 16-06-2024 07:51:56:23 [pid=6005 tid=6005] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 07:51:58:674 [pid=6014 tid=6014] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:51:58:674 [pid=6014 tid=6014] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:51:58:675 [pid=6014 tid=6014] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:58:675 [pid=6014 tid=6014] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:58:675 [pid=6014 tid=6014] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] ERROR  cufio_core:1549 cuFileBufRegister checks failed: -5014
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] ERROR  cufio_core:1581 cuFile buffer object device memory check failed
+ 16-06-2024 07:51:58:781 [pid=6014 tid=6014] ERROR  cufio_core:1704 cuFileBufRegister error pointer range exceeds allocated address range
+ 16-06-2024 07:51:58:930 [pid=6014 tid=6014] ERROR  cufio-px:503 cuMemcpy error, cufile_posix_read failed fd: 33 cu_result: 1
+ 16-06-2024 07:51:58:930 [pid=6014 tid=6014] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 07:52:23:421 [pid=6055 tid=6055] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:52:23:421 [pid=6055 tid=6055] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:52:23:421 [pid=6055 tid=6055] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:52:23:422 [pid=6055 tid=6055] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:52:23:422 [pid=6055 tid=6055] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] ERROR  cufio_core:1549 cuFileBufRegister checks failed: -5014
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] ERROR  cufio_core:1581 cuFile buffer object device memory check failed
+ 16-06-2024 07:52:23:538 [pid=6055 tid=6055] ERROR  cufio_core:1704 cuFileBufRegister error pointer range exceeds allocated address range
+ 16-06-2024 07:52:23:679 [pid=6055 tid=6055] ERROR  cufio-px:503 cuMemcpy error, cufile_posix_read failed fd: 33 cu_result: 1
+ 16-06-2024 07:52:23:679 [pid=6055 tid=6055] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 07:53:06:37 [pid=6100 tid=6100] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:53:06:37 [pid=6100 tid=6100] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:53:06:37 [pid=6100 tid=6100] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:06:38 [pid=6100 tid=6100] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:06:38 [pid=6100 tid=6100] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:06:163 [pid=6100 tid=6100] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:53:06:163 [pid=6100 tid=6100] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:53:06:163 [pid=6100 tid=6100] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:53:31:281 [pid=6109 tid=6109] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:53:31:282 [pid=6109 tid=6109] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:53:31:282 [pid=6109 tid=6109] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:31:283 [pid=6109 tid=6109] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:31:283 [pid=6109 tid=6109] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:53:31:396 [pid=6109 tid=6109] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:53:31:396 [pid=6109 tid=6109] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:53:31:396 [pid=6109 tid=6109] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:55:55:273 [pid=6157 tid=6157] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:55:55:273 [pid=6157 tid=6157] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:55:55:274 [pid=6157 tid=6157] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:55:55:274 [pid=6157 tid=6157] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:55:55:275 [pid=6157 tid=6157] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:55:55:391 [pid=6157 tid=6157] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:55:55:391 [pid=6157 tid=6157] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:55:55:391 [pid=6157 tid=6157] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:56:55:676 [pid=6200 tid=6200] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:56:55:676 [pid=6200 tid=6200] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:56:55:676 [pid=6200 tid=6200] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:56:55:677 [pid=6200 tid=6200] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:56:55:677 [pid=6200 tid=6200] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:56:55:789 [pid=6200 tid=6200] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:56:55:789 [pid=6200 tid=6200] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:56:55:789 [pid=6200 tid=6200] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:04:28 [pid=6242 tid=6242] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:04:28 [pid=6242 tid=6242] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:04:29 [pid=6242 tid=6242] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:04:29 [pid=6242 tid=6242] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:04:29 [pid=6242 tid=6242] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:04:140 [pid=6242 tid=6242] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:04:140 [pid=6242 tid=6242] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:04:140 [pid=6242 tid=6242] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:14:237 [pid=6284 tid=6284] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:14:238 [pid=6284 tid=6284] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:14:238 [pid=6284 tid=6284] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:14:239 [pid=6284 tid=6284] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:14:239 [pid=6284 tid=6284] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:14:353 [pid=6284 tid=6284] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:14:354 [pid=6284 tid=6284] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:14:354 [pid=6284 tid=6284] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:18:960 [pid=6326 tid=6326] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:18:960 [pid=6326 tid=6326] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:18:960 [pid=6326 tid=6326] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:18:961 [pid=6326 tid=6326] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:18:961 [pid=6326 tid=6326] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:19:69 [pid=6326 tid=6326] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:19:69 [pid=6326 tid=6326] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:19:69 [pid=6326 tid=6326] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:32:604 [pid=6368 tid=6368] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:32:604 [pid=6368 tid=6368] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:32:604 [pid=6368 tid=6368] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:32:605 [pid=6368 tid=6368] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:32:605 [pid=6368 tid=6368] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:32:712 [pid=6368 tid=6368] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:32:712 [pid=6368 tid=6368] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:32:712 [pid=6368 tid=6368] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:51:504 [pid=6376 tid=6376] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:51:504 [pid=6376 tid=6376] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:51:504 [pid=6376 tid=6376] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:51:505 [pid=6376 tid=6376] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:51:505 [pid=6376 tid=6376] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:51:613 [pid=6376 tid=6376] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:51:613 [pid=6376 tid=6376] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:51:613 [pid=6376 tid=6376] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:53:642 [pid=6384 tid=6384] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:53:642 [pid=6384 tid=6384] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:53:642 [pid=6384 tid=6384] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:53:643 [pid=6384 tid=6384] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:53:643 [pid=6384 tid=6384] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:53:743 [pid=6384 tid=6384] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:53:743 [pid=6384 tid=6384] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:53:743 [pid=6384 tid=6384] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:57:58:885 [pid=6427 tid=6427] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:58:886 [pid=6427 tid=6427] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:57:58:886 [pid=6427 tid=6427] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:58:887 [pid=6427 tid=6427] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:58:887 [pid=6427 tid=6427] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:57:58:998 [pid=6427 tid=6427] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:57:58:999 [pid=6427 tid=6427] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:57:58:999 [pid=6427 tid=6427] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:58:16:389 [pid=6468 tid=6468] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:58:16:389 [pid=6468 tid=6468] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:58:16:389 [pid=6468 tid=6468] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:16:390 [pid=6468 tid=6468] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:16:390 [pid=6468 tid=6468] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:16:504 [pid=6468 tid=6468] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:58:16:504 [pid=6468 tid=6468] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:58:16:504 [pid=6468 tid=6468] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:58:27:561 [pid=6510 tid=6510] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:58:27:561 [pid=6510 tid=6510] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:58:27:561 [pid=6510 tid=6510] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:27:562 [pid=6510 tid=6510] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:27:562 [pid=6510 tid=6510] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:58:27:674 [pid=6510 tid=6510] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:58:27:674 [pid=6510 tid=6510] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:58:27:674 [pid=6510 tid=6510] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 07:59:45:124 [pid=6552 tid=6552] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:59:45:124 [pid=6552 tid=6552] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 07:59:45:124 [pid=6552 tid=6552] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:59:45:125 [pid=6552 tid=6552] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:59:45:125 [pid=6552 tid=6552] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 07:59:45:248 [pid=6552 tid=6552] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 07:59:45:248 [pid=6552 tid=6552] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 07:59:45:248 [pid=6552 tid=6552] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:00:33:862 [pid=6596 tid=6596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:00:33:862 [pid=6596 tid=6596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:00:33:862 [pid=6596 tid=6596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:00:33:862 [pid=6596 tid=6596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:00:33:863 [pid=6596 tid=6596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:00:33:979 [pid=6596 tid=6596] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:00:33:979 [pid=6596 tid=6596] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:00:33:979 [pid=6596 tid=6596] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:08:41:338 [pid=6739 tid=6739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:08:41:338 [pid=6739 tid=6739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:08:41:339 [pid=6739 tid=6739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:08:41:339 [pid=6739 tid=6739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:08:41:340 [pid=6739 tid=6739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:08:41:459 [pid=6739 tid=6739] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:08:41:459 [pid=6739 tid=6739] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:08:41:459 [pid=6739 tid=6739] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:08:41:492 [pid=6739 tid=6739] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:09:08:481 [pid=6781 tid=6781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:09:08:481 [pid=6781 tid=6781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:09:08:481 [pid=6781 tid=6781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:09:08:482 [pid=6781 tid=6781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:09:08:482 [pid=6781 tid=6781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:09:08:599 [pid=6781 tid=6781] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:09:08:599 [pid=6781 tid=6781] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:09:08:599 [pid=6781 tid=6781] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:09:08:632 [pid=6781 tid=6781] ERROR  cufio:235 cuFileHandleRegister error, file is already registered under same fd. please use cuFileHandleDeregister before another register using the same fd
+ 16-06-2024 08:09:08:632 [pid=6781 tid=6781] ERROR  cufio:339 cuFileHandleRegister error: file descriptor is already registered
+ 16-06-2024 08:10:01:70 [pid=6824 tid=6824] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:10:01:70 [pid=6824 tid=6824] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:10:01:71 [pid=6824 tid=6824] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:10:01:71 [pid=6824 tid=6824] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:10:01:72 [pid=6824 tid=6824] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:10:01:197 [pid=6824 tid=6824] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:10:01:197 [pid=6824 tid=6824] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:10:01:197 [pid=6824 tid=6824] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:10:01:231 [pid=6824 tid=6824] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:12:10:937 [pid=6892 tid=6892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:12:10:937 [pid=6892 tid=6892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:12:10:937 [pid=6892 tid=6892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:12:10:938 [pid=6892 tid=6892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:12:10:938 [pid=6892 tid=6892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:12:11:61 [pid=6892 tid=6892] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:12:11:61 [pid=6892 tid=6892] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:12:11:61 [pid=6892 tid=6892] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:12:11:95 [pid=6892 tid=6892] ERROR  cufio:235 cuFileHandleRegister error, file is already registered under same fd. please use cuFileHandleDeregister before another register using the same fd
+ 16-06-2024 08:12:11:95 [pid=6892 tid=6892] ERROR  cufio:339 cuFileHandleRegister error: file descriptor is already registered
+ 16-06-2024 08:13:07:409 [pid=6936 tid=6936] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:13:07:409 [pid=6936 tid=6936] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:13:07:409 [pid=6936 tid=6936] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:13:07:410 [pid=6936 tid=6936] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:13:07:410 [pid=6936 tid=6936] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:13:07:522 [pid=6936 tid=6936] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:13:07:522 [pid=6936 tid=6936] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:13:07:522 [pid=6936 tid=6936] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:13:07:555 [pid=6936 tid=6936] ERROR  cufio:235 cuFileHandleRegister error, file is already registered under same fd. please use cuFileHandleDeregister before another register using the same fd
+ 16-06-2024 08:13:07:555 [pid=6936 tid=6936] ERROR  cufio:339 cuFileHandleRegister error: file descriptor is already registered
+ 16-06-2024 08:22:15:428 [pid=7029 tid=7029] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:22:15:428 [pid=7029 tid=7029] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:22:15:429 [pid=7029 tid=7029] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:22:15:429 [pid=7029 tid=7029] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:22:15:429 [pid=7029 tid=7029] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:22:15:552 [pid=7029 tid=7029] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:22:15:552 [pid=7029 tid=7029] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:22:15:552 [pid=7029 tid=7029] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:22:15:658 [pid=7029 tid=7029] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:24:47:545 [pid=7075 tid=7075] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:24:47:545 [pid=7075 tid=7075] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:24:47:546 [pid=7075 tid=7075] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:24:47:546 [pid=7075 tid=7075] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:24:47:547 [pid=7075 tid=7075] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:24:47:663 [pid=7075 tid=7075] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:24:47:663 [pid=7075 tid=7075] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:24:47:663 [pid=7075 tid=7075] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:24:47:766 [pid=7075 tid=7075] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:25:28:569 [pid=7140 tid=7140] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:25:28:569 [pid=7140 tid=7140] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:25:28:569 [pid=7140 tid=7140] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:25:28:570 [pid=7140 tid=7140] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:25:28:570 [pid=7140 tid=7140] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:25:28:700 [pid=7140 tid=7140] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:25:28:700 [pid=7140 tid=7140] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:25:28:700 [pid=7140 tid=7140] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:25:28:798 [pid=7140 tid=7140] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:26:50:937 [pid=7183 tid=7183] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:26:50:937 [pid=7183 tid=7183] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:26:50:938 [pid=7183 tid=7183] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:26:50:938 [pid=7183 tid=7183] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:26:50:939 [pid=7183 tid=7183] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:26:51:56 [pid=7183 tid=7183] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:26:51:56 [pid=7183 tid=7183] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:26:51:56 [pid=7183 tid=7183] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:26:51:85 [pid=7183 tid=7183] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:27:12:736 [pid=7225 tid=7225] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:27:12:736 [pid=7225 tid=7225] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:27:12:737 [pid=7225 tid=7225] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:12:737 [pid=7225 tid=7225] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:12:737 [pid=7225 tid=7225] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:12:849 [pid=7225 tid=7225] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:27:12:850 [pid=7225 tid=7225] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:27:12:850 [pid=7225 tid=7225] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:27:12:879 [pid=7225 tid=7225] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:27:41:264 [pid=7268 tid=7268] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:27:41:264 [pid=7268 tid=7268] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:27:41:264 [pid=7268 tid=7268] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:41:265 [pid=7268 tid=7268] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:41:265 [pid=7268 tid=7268] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:27:41:380 [pid=7268 tid=7268] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:27:41:381 [pid=7268 tid=7268] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:27:41:381 [pid=7268 tid=7268] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:29:25:121 [pid=7316 tid=7316] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:29:25:121 [pid=7316 tid=7316] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:29:25:121 [pid=7316 tid=7316] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:25:122 [pid=7316 tid=7316] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:25:122 [pid=7316 tid=7316] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:25:252 [pid=7316 tid=7316] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:29:25:252 [pid=7316 tid=7316] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:29:25:252 [pid=7316 tid=7316] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:29:34:977 [pid=7359 tid=7359] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:29:34:977 [pid=7359 tid=7359] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:29:34:978 [pid=7359 tid=7359] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:34:978 [pid=7359 tid=7359] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:34:978 [pid=7359 tid=7359] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:29:35:90 [pid=7359 tid=7359] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:29:35:90 [pid=7359 tid=7359] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:29:35:90 [pid=7359 tid=7359] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:29:35:119 [pid=7359 tid=7359] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:31:16:805 [pid=7404 tid=7404] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:16:805 [pid=7404 tid=7404] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:16:805 [pid=7404 tid=7404] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:16:806 [pid=7404 tid=7404] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:16:806 [pid=7404 tid=7404] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:16:919 [pid=7404 tid=7404] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:31:16:919 [pid=7404 tid=7404] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:31:16:919 [pid=7404 tid=7404] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:31:16:948 [pid=7404 tid=7404] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:31:25:276 [pid=7445 tid=7445] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:25:276 [pid=7445 tid=7445] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:25:276 [pid=7445 tid=7445] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:25:277 [pid=7445 tid=7445] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:25:277 [pid=7445 tid=7445] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:25:389 [pid=7445 tid=7445] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:31:25:389 [pid=7445 tid=7445] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:31:25:389 [pid=7445 tid=7445] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:31:25:418 [pid=7445 tid=7445] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:31:32:446 [pid=7489 tid=7489] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:32:446 [pid=7489 tid=7489] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:32:447 [pid=7489 tid=7489] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:32:448 [pid=7489 tid=7489] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:32:448 [pid=7489 tid=7489] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:32:566 [pid=7489 tid=7489] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:31:32:566 [pid=7489 tid=7489] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:31:32:566 [pid=7489 tid=7489] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:31:32:701 [pid=7489 tid=7489] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:31:39:618 [pid=7533 tid=7533] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:39:618 [pid=7533 tid=7533] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:31:39:618 [pid=7533 tid=7533] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:39:619 [pid=7533 tid=7533] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:39:620 [pid=7533 tid=7533] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:31:39:728 [pid=7533 tid=7533] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:31:39:729 [pid=7533 tid=7533] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:31:39:729 [pid=7533 tid=7533] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:31:39:867 [pid=7533 tid=7533] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:34:32:876 [pid=7557 tid=7557] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:34:32:876 [pid=7557 tid=7557] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:34:32:877 [pid=7557 tid=7557] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:32:877 [pid=7557 tid=7557] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:32:877 [pid=7557 tid=7557] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:32:990 [pid=7557 tid=7557] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:34:32:990 [pid=7557 tid=7557] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:34:32:990 [pid=7557 tid=7557] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:34:33:121 [pid=7557 tid=7557] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:34:43:312 [pid=7575 tid=7575] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:34:43:312 [pid=7575 tid=7575] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:34:43:313 [pid=7575 tid=7575] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:43:313 [pid=7575 tid=7575] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:43:313 [pid=7575 tid=7575] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:34:43:429 [pid=7575 tid=7575] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:34:43:429 [pid=7575 tid=7575] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:34:43:429 [pid=7575 tid=7575] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:34:43:568 [pid=7575 tid=7575] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:35:04:678 [pid=7596 tid=7596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:04:678 [pid=7596 tid=7596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:04:679 [pid=7596 tid=7596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:04:679 [pid=7596 tid=7596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:04:680 [pid=7596 tid=7596] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:04:810 [pid=7596 tid=7596] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:35:04:810 [pid=7596 tid=7596] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:35:04:810 [pid=7596 tid=7596] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:35:04:942 [pid=7596 tid=7596] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:35:22:596 [pid=7612 tid=7612] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:22:596 [pid=7612 tid=7612] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:22:596 [pid=7612 tid=7612] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:22:597 [pid=7612 tid=7612] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:22:597 [pid=7612 tid=7612] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:22:706 [pid=7612 tid=7612] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:35:22:706 [pid=7612 tid=7612] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:35:22:706 [pid=7612 tid=7612] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:35:22:836 [pid=7612 tid=7612] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 08:35:26:628 [pid=7654 tid=7654] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:26:628 [pid=7654 tid=7654] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:26:628 [pid=7654 tid=7654] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:26:629 [pid=7654 tid=7654] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:26:629 [pid=7654 tid=7654] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:28:102 [pid=7654 tid=7654] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:35:28:102 [pid=7654 tid=7654] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:35:28:102 [pid=7654 tid=7654] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:35:53:413 [pid=7697 tid=7697] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:53:413 [pid=7697 tid=7697] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:35:53:414 [pid=7697 tid=7697] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:53:414 [pid=7697 tid=7697] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:53:415 [pid=7697 tid=7697] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:35:54:658 [pid=7697 tid=7697] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:35:54:658 [pid=7697 tid=7697] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:35:54:658 [pid=7697 tid=7697] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:36:14:401 [pid=7739 tid=7739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:14:401 [pid=7739 tid=7739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:14:401 [pid=7739 tid=7739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:14:402 [pid=7739 tid=7739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:14:402 [pid=7739 tid=7739] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:15:667 [pid=7739 tid=7739] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:36:15:667 [pid=7739 tid=7739] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:36:15:667 [pid=7739 tid=7739] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:36:28:301 [pid=7781 tid=7781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:28:301 [pid=7781 tid=7781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:28:301 [pid=7781 tid=7781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:28:302 [pid=7781 tid=7781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:28:302 [pid=7781 tid=7781] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:29:541 [pid=7781 tid=7781] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:36:29:541 [pid=7781 tid=7781] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:36:29:541 [pid=7781 tid=7781] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:36:50:597 [pid=7827 tid=7827] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:50:597 [pid=7827 tid=7827] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:36:50:598 [pid=7827 tid=7827] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:50:598 [pid=7827 tid=7827] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:50:598 [pid=7827 tid=7827] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:36:52:640 [pid=7827 tid=7827] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:36:52:640 [pid=7827 tid=7827] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:36:52:640 [pid=7827 tid=7827] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:37:13:597 [pid=7872 tid=7872] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:37:13:597 [pid=7872 tid=7872] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:37:13:597 [pid=7872 tid=7872] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:13:598 [pid=7872 tid=7872] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:13:598 [pid=7872 tid=7872] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:14:814 [pid=7872 tid=7872] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:37:14:814 [pid=7872 tid=7872] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:37:14:814 [pid=7872 tid=7872] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:37:42:480 [pid=7914 tid=7914] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:37:42:480 [pid=7914 tid=7914] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:37:42:480 [pid=7914 tid=7914] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:42:481 [pid=7914 tid=7914] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:42:481 [pid=7914 tid=7914] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:37:43:758 [pid=7914 tid=7914] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:37:43:758 [pid=7914 tid=7914] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:38:03:986 [pid=7958 tid=7958] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:03:986 [pid=7958 tid=7958] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:03:987 [pid=7958 tid=7958] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:03:987 [pid=7958 tid=7958] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:03:988 [pid=7958 tid=7958] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:05:419 [pid=7958 tid=7958] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:38:05:419 [pid=7958 tid=7958] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:38:16:57 [pid=7999 tid=7999] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:16:57 [pid=7999 tid=7999] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:16:57 [pid=7999 tid=7999] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:16:58 [pid=7999 tid=7999] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:16:58 [pid=7999 tid=7999] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:17:339 [pid=7999 tid=7999] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:38:17:339 [pid=7999 tid=7999] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:38:28:880 [pid=8040 tid=8040] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:28:880 [pid=8040 tid=8040] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:28:881 [pid=8040 tid=8040] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:28:881 [pid=8040 tid=8040] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:28:881 [pid=8040 tid=8040] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:30:290 [pid=8040 tid=8040] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:38:30:290 [pid=8040 tid=8040] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:38:41:496 [pid=8081 tid=8081] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:41:496 [pid=8081 tid=8081] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:38:41:496 [pid=8081 tid=8081] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:41:497 [pid=8081 tid=8081] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:41:497 [pid=8081 tid=8081] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:38:42:657 [pid=8081 tid=8081] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:38:42:657 [pid=8081 tid=8081] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:38:42:657 [pid=8081 tid=8081] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:40:00:555 [pid=8124 tid=8124] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:40:00:555 [pid=8124 tid=8124] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:40:00:556 [pid=8124 tid=8124] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:40:00:556 [pid=8124 tid=8124] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:40:00:557 [pid=8124 tid=8124] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:40:01:711 [pid=8124 tid=8124] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:40:01:711 [pid=8124 tid=8124] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:40:01:711 [pid=8124 tid=8124] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:42:21:72 [pid=8173 tid=8173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:21:72 [pid=8173 tid=8173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:21:73 [pid=8173 tid=8173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:21:73 [pid=8173 tid=8173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:21:73 [pid=8173 tid=8173] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:21:187 [pid=8173 tid=8173] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:42:21:187 [pid=8173 tid=8173] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:42:21:187 [pid=8173 tid=8173] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:42:30:349 [pid=8215 tid=8215] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:30:349 [pid=8215 tid=8215] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:30:350 [pid=8215 tid=8215] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:30:350 [pid=8215 tid=8215] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:30:351 [pid=8215 tid=8215] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:43:32 [pid=8256 tid=8256] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:43:32 [pid=8256 tid=8256] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:43:32 [pid=8256 tid=8256] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:43:33 [pid=8256 tid=8256] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:43:33 [pid=8256 tid=8256] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:50:869 [pid=8297 tid=8297] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:50:869 [pid=8297 tid=8297] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:42:50:870 [pid=8297 tid=8297] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:50:870 [pid=8297 tid=8297] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:50:871 [pid=8297 tid=8297] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:42:52:284 [pid=8297 tid=8297] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:42:52:284 [pid=8297 tid=8297] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:43:01:667 [pid=8338 tid=8338] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:43:01:667 [pid=8338 tid=8338] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:43:01:668 [pid=8338 tid=8338] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:43:01:668 [pid=8338 tid=8338] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:43:01:669 [pid=8338 tid=8338] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:43:01:793 [pid=8338 tid=8338] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:43:01:793 [pid=8338 tid=8338] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:43:01:793 [pid=8338 tid=8338] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:44:22:68 [pid=8383 tid=8383] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:44:22:68 [pid=8383 tid=8383] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:44:22:69 [pid=8383 tid=8383] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:22:69 [pid=8383 tid=8383] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:22:69 [pid=8383 tid=8383] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:22:186 [pid=8383 tid=8383] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:44:22:186 [pid=8383 tid=8383] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:44:22:186 [pid=8383 tid=8383] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:44:29:916 [pid=8425 tid=8425] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:44:29:916 [pid=8425 tid=8425] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:44:29:917 [pid=8425 tid=8425] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:29:917 [pid=8425 tid=8425] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:29:917 [pid=8425 tid=8425] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:44:31:319 [pid=8425 tid=8425] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:44:31:319 [pid=8425 tid=8425] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:50:35:653 [pid=8454 tid=8454] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:50:35:653 [pid=8454 tid=8454] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:50:35:653 [pid=8454 tid=8454] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:50:35:654 [pid=8454 tid=8454] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:50:35:654 [pid=8454 tid=8454] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:50:37:65 [pid=8454 tid=8454] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:50:37:65 [pid=8454 tid=8454] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:51:01:538 [pid=8470 tid=8470] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:01:538 [pid=8470 tid=8470] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:01:538 [pid=8470 tid=8470] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:01:539 [pid=8470 tid=8470] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:01:539 [pid=8470 tid=8470] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:02:961 [pid=8470 tid=8470] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 08:51:02:961 [pid=8470 tid=8470] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 08:51:07:595 [pid=8511 tid=8511] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:07:595 [pid=8511 tid=8511] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:07:595 [pid=8511 tid=8511] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:07:595 [pid=8511 tid=8511] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:07:596 [pid=8511 tid=8511] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:07:701 [pid=8511 tid=8511] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:51:07:701 [pid=8511 tid=8511] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:51:07:701 [pid=8511 tid=8511] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:51:17:332 [pid=8553 tid=8553] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:17:332 [pid=8553 tid=8553] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:17:332 [pid=8553 tid=8553] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:17:333 [pid=8553 tid=8553] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:17:333 [pid=8553 tid=8553] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:38:136 [pid=8595 tid=8595] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:38:136 [pid=8595 tid=8595] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:38:136 [pid=8595 tid=8595] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:38:137 [pid=8595 tid=8595] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:38:137 [pid=8595 tid=8595] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:38:252 [pid=8595 tid=8595] ERROR  cufio-obj:54 cuFile error fetching fd, null CUfileHandle
+ 16-06-2024 08:51:38:252 [pid=8595 tid=8595] ERROR  cufio:422 invalid filehandle to cuFileRead
+ 16-06-2024 08:51:47:569 [pid=8637 tid=8637] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:47:569 [pid=8637 tid=8637] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:51:47:569 [pid=8637 tid=8637] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:47:570 [pid=8637 tid=8637] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:47:570 [pid=8637 tid=8637] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:51:47:682 [pid=8637 tid=8637] ERROR  cufio-obj:54 cuFile error fetching fd, null CUfileHandle
+ 16-06-2024 08:51:47:682 [pid=8637 tid=8637] ERROR  cufio:422 invalid filehandle to cuFileRead
+ 16-06-2024 08:53:18:809 [pid=8681 tid=8681] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:53:18:809 [pid=8681 tid=8681] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:53:18:809 [pid=8681 tid=8681] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:53:18:810 [pid=8681 tid=8681] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:53:18:810 [pid=8681 tid=8681] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:53:18:922 [pid=8681 tid=8681] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:53:18:922 [pid=8681 tid=8681] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:53:18:922 [pid=8681 tid=8681] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:54:03:209 [pid=8724 tid=8724] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:54:03:209 [pid=8724 tid=8724] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:54:03:209 [pid=8724 tid=8724] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:03:209 [pid=8724 tid=8724] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:03:210 [pid=8724 tid=8724] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:03:333 [pid=8724 tid=8724] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:54:03:333 [pid=8724 tid=8724] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:54:03:333 [pid=8724 tid=8724] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:54:21:105 [pid=8767 tid=8767] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:54:21:105 [pid=8767 tid=8767] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:54:21:105 [pid=8767 tid=8767] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:21:106 [pid=8767 tid=8767] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:21:106 [pid=8767 tid=8767] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:54:21:217 [pid=8767 tid=8767] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:54:21:217 [pid=8767 tid=8767] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:54:21:217 [pid=8767 tid=8767] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 08:55:20:960 [pid=8817 tid=8817] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:55:20:960 [pid=8817 tid=8817] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:55:20:961 [pid=8817 tid=8817] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:20:961 [pid=8817 tid=8817] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:20:961 [pid=8817 tid=8817] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:35:492 [pid=8860 tid=8860] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:55:35:492 [pid=8860 tid=8860] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 08:55:35:492 [pid=8860 tid=8860] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:35:493 [pid=8860 tid=8860] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:35:493 [pid=8860 tid=8860] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 08:55:35:609 [pid=8860 tid=8860] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 08:55:35:609 [pid=8860 tid=8860] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 08:55:35:609 [pid=8860 tid=8860] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:01:11:208 [pid=8891 tid=8891] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:01:11:208 [pid=8891 tid=8891] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:01:11:209 [pid=8891 tid=8891] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:01:11:209 [pid=8891 tid=8891] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:01:11:209 [pid=8891 tid=8891] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:01:11:329 [pid=8891 tid=8891] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:01:11:329 [pid=8891 tid=8891] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:01:11:329 [pid=8891 tid=8891] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:08:41:417 [pid=9160 tid=9160] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:41:417 [pid=9160 tid=9160] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:41:418 [pid=9160 tid=9160] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:41:418 [pid=9160 tid=9160] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:41:419 [pid=9160 tid=9160] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:41:541 [pid=9160 tid=9160] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:08:41:541 [pid=9160 tid=9160] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:08:41:541 [pid=9160 tid=9160] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:08:42:795 [pid=9160 tid=9160] ERROR  cufio:145 cuFileBufDeregister error, object for device pointer is not registered
+ 16-06-2024 09:08:42:795 [pid=9160 tid=9160] ERROR  cufio:171 cuFileBufDeregister error: device pointer lookup failure
+ 16-06-2024 09:08:53:688 [pid=9168 tid=9168] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:53:688 [pid=9168 tid=9168] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:53:688 [pid=9168 tid=9168] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:53:689 [pid=9168 tid=9168] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:53:689 [pid=9168 tid=9168] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:53:801 [pid=9168 tid=9168] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:08:53:801 [pid=9168 tid=9168] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:08:53:801 [pid=9168 tid=9168] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:08:58:680 [pid=9209 tid=9209] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:58:680 [pid=9209 tid=9209] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:08:58:681 [pid=9209 tid=9209] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:58:681 [pid=9209 tid=9209] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:58:681 [pid=9209 tid=9209] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:08:58:792 [pid=9209 tid=9209] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:08:58:792 [pid=9209 tid=9209] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:08:58:792 [pid=9209 tid=9209] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:09:49:664 [pid=9252 tid=9252] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:09:49:664 [pid=9252 tid=9252] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:09:49:664 [pid=9252 tid=9252] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:09:49:665 [pid=9252 tid=9252] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:09:49:665 [pid=9252 tid=9252] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:09:49:780 [pid=9252 tid=9252] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:09:49:780 [pid=9252 tid=9252] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:09:49:780 [pid=9252 tid=9252] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:10:00:546 [pid=9293 tid=9293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:10:00:546 [pid=9293 tid=9293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:10:00:547 [pid=9293 tid=9293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:00:547 [pid=9293 tid=9293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:00:548 [pid=9293 tid=9293] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:00:676 [pid=9293 tid=9293] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:10:00:676 [pid=9293 tid=9293] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:10:00:676 [pid=9293 tid=9293] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:10:28:705 [pid=9337 tid=9337] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:10:28:705 [pid=9337 tid=9337] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:10:28:705 [pid=9337 tid=9337] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:28:706 [pid=9337 tid=9337] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:28:706 [pid=9337 tid=9337] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:10:28:824 [pid=9337 tid=9337] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:10:28:824 [pid=9337 tid=9337] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:10:28:824 [pid=9337 tid=9337] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:16:01:855 [pid=9430 tid=9430] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:16:01:855 [pid=9430 tid=9430] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:16:01:856 [pid=9430 tid=9430] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:01:856 [pid=9430 tid=9430] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:01:857 [pid=9430 tid=9430] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:01:976 [pid=9430 tid=9430] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:16:01:976 [pid=9430 tid=9430] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:16:01:976 [pid=9430 tid=9430] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:16:47:37 [pid=9473 tid=9473] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:16:47:37 [pid=9473 tid=9473] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:16:47:37 [pid=9473 tid=9473] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:47:38 [pid=9473 tid=9473] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:47:38 [pid=9473 tid=9473] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:16:47:146 [pid=9473 tid=9473] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:16:47:146 [pid=9473 tid=9473] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:16:47:146 [pid=9473 tid=9473] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:17:06:461 [pid=9518 tid=9518] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:17:06:461 [pid=9518 tid=9518] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:17:06:462 [pid=9518 tid=9518] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:06:462 [pid=9518 tid=9518] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:06:463 [pid=9518 tid=9518] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:06:581 [pid=9518 tid=9518] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:17:06:581 [pid=9518 tid=9518] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:17:06:581 [pid=9518 tid=9518] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:17:37:44 [pid=9560 tid=9560] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:17:37:44 [pid=9560 tid=9560] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:17:37:44 [pid=9560 tid=9560] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:37:45 [pid=9560 tid=9560] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:37:45 [pid=9560 tid=9560] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:17:37:152 [pid=9560 tid=9560] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:17:37:152 [pid=9560 tid=9560] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:17:37:152 [pid=9560 tid=9560] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:18:08:892 [pid=9570 tid=9570] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:18:08:892 [pid=9570 tid=9570] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:18:08:893 [pid=9570 tid=9570] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:08:893 [pid=9570 tid=9570] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:08:893 [pid=9570 tid=9570] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:09:6 [pid=9570 tid=9570] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:18:09:6 [pid=9570 tid=9570] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:18:09:6 [pid=9570 tid=9570] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:18:52:641 [pid=9664 tid=9664] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:18:52:641 [pid=9664 tid=9664] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:18:52:642 [pid=9664 tid=9664] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:52:643 [pid=9664 tid=9664] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:52:643 [pid=9664 tid=9664] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:18:52:761 [pid=9664 tid=9664] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:18:52:761 [pid=9664 tid=9664] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:18:52:761 [pid=9664 tid=9664] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:19:41:236 [pid=9675 tid=9675] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:19:41:236 [pid=9675 tid=9675] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:19:41:236 [pid=9675 tid=9675] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:19:41:237 [pid=9675 tid=9675] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:19:41:237 [pid=9675 tid=9675] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] ERROR  cufio_core:1569 cuFileBufRegister error, invalid api parameters
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] ERROR  cufio_core:1704 cuFileBufRegister error invalid arguments
+ 16-06-2024 09:19:41:350 [pid=9675 tid=9675] ERROR  cufio:429 invalid devicePtr to cuFileRead
+ 16-06-2024 09:20:05:933 [pid=9718 tid=9718] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:20:05:933 [pid=9718 tid=9718] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:20:05:934 [pid=9718 tid=9718] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:05:934 [pid=9718 tid=9718] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:05:934 [pid=9718 tid=9718] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:06:61 [pid=9718 tid=9718] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:20:06:61 [pid=9718 tid=9718] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:20:06:61 [pid=9718 tid=9718] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:20:06:320 [pid=9718 tid=9718] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 09:20:51:285 [pid=9759 tid=9759] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:20:51:285 [pid=9759 tid=9759] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:20:51:285 [pid=9759 tid=9759] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:51:286 [pid=9759 tid=9759] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:51:286 [pid=9759 tid=9759] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:20:51:399 [pid=9759 tid=9759] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:20:51:399 [pid=9759 tid=9759] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:20:51:399 [pid=9759 tid=9759] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:20:52:684 [pid=9759 tid=9759] WARN   cufio-px:52 cuStreamDestroy error for posix buffer error num:  4 error:  cuda error: CUDA_ERROR_DEINITIALIZED
+ 16-06-2024 09:21:05:598 [pid=9801 tid=9801] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:05:598 [pid=9801 tid=9801] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:05:599 [pid=9801 tid=9801] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:05:599 [pid=9801 tid=9801] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:05:600 [pid=9801 tid=9801] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] ERROR  cufio_core:1569 cuFileBufRegister error, invalid api parameters
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] ERROR  cufio_core:1704 cuFileBufRegister error invalid arguments
+ 16-06-2024 09:21:05:718 [pid=9801 tid=9801] ERROR  cufio:429 invalid devicePtr to cuFileRead
+ 16-06-2024 09:21:50:384 [pid=9809 tid=9809] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:50:384 [pid=9809 tid=9809] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:50:385 [pid=9809 tid=9809] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:50:385 [pid=9809 tid=9809] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:50:385 [pid=9809 tid=9809] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] ERROR  cufio_core:1569 cuFileBufRegister error, invalid api parameters
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] ERROR  cufio_core:1704 cuFileBufRegister error invalid arguments
+ 16-06-2024 09:21:50:493 [pid=9809 tid=9809] ERROR  cufio:429 invalid devicePtr to cuFileRead
+ 16-06-2024 09:21:54:593 [pid=9850 tid=9850] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:54:593 [pid=9850 tid=9850] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:21:54:594 [pid=9850 tid=9850] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:54:595 [pid=9850 tid=9850] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:54:595 [pid=9850 tid=9850] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] ERROR  cufio_core:1569 cuFileBufRegister error, invalid api parameters
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] ERROR  cufio_core:1704 cuFileBufRegister error invalid arguments
+ 16-06-2024 09:21:54:703 [pid=9850 tid=9850] ERROR  cufio:429 invalid devicePtr to cuFileRead
+ 16-06-2024 09:22:01:970 [pid=9892 tid=9892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:22:01:970 [pid=9892 tid=9892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:22:01:971 [pid=9892 tid=9892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:22:01:971 [pid=9892 tid=9892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:22:01:972 [pid=9892 tid=9892] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:22:02:86 [pid=9892 tid=9892] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:22:02:86 [pid=9892 tid=9892] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:22:02:86 [pid=9892 tid=9892] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:27:14:304 [pid=9950 tid=9950] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:27:14:304 [pid=9950 tid=9950] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0001:10:00.0
+ 16-06-2024 09:27:14:305 [pid=9950 tid=9950] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:27:14:305 [pid=9950 tid=9950] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:27:14:305 [pid=9950 tid=9950] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:27:14:422 [pid=9950 tid=9950] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:27:14:422 [pid=9950 tid=9950] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:27:14:422 [pid=9950 tid=9950] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 16-06-2024 09:28:49:478 [pid=2349 tid=2349] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:28:49:479 [pid=2349 tid=2349] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:28:49:479 [pid=2349 tid=2349] ERROR  cufio-topo-nvfs:78 pci device not present in topology device attribute table: 0000:06:00.0
+ 16-06-2024 09:28:49:592 [pid=2349 tid=2349] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 16-06-2024 09:28:49:592 [pid=2349 tid=2349] ERROR  cufio-fs:152 EXT4 journal options not found in mount table for device,can't verify data=ordered mode journalling
+ 16-06-2024 09:28:49:592 [pid=2349 tid=2349] NOTICE  cufio:293 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled

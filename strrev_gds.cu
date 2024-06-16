@@ -8,88 +8,187 @@
 #include <unistd.h>
 #include <cuda.h>
 #include <cuda_runtime.h>
-
+#include <iostream>
+#include <chrono>
+#include <iomanip>
+#include <vector>
 #include "cufile.h"
+#include <cstring>
+#include <cerrno>
+//#include "cufile_sample_utils.h"
 
+#define GB(x) ((x)*1024L*1024L*1024L)
+#define MB(x) ((x)*1024L*1024L)
 #define KB(x) ((x)*1024L)
-#define TESTFILE "/mnt/test"
+
+// POSIX
+template<class T,
+	typename std::enable_if<std::is_integral<T>::value, std::nullptr_t>::type = nullptr>
+std::string cuFileGetErrorString(T status) {
+	status = std::abs(status);
+	return IS_CUFILE_ERR(status) ?
+		std::string(CUFILE_ERRSTR(status)) : std::string(std::strerror(status));
+}
+
+// CUfileError_t
+template<class T,
+	typename std::enable_if<!std::is_integral<T>::value, std::nullptr_t>::type = nullptr>
+std::string cuFileGetErrorString(T status) {
+	std::string errStr = cuFileGetErrorString(static_cast<int>(status.err));
+	if (IS_CUDA_ERR(status))
+		errStr.append(".").append(GetCuErrorString(status.cu_err));
+	return errStr;
+}
+
+template <typename T>
+struct aligned_allocator
+{
+  using value_type = T;
+  T* allocate(std::size_t num)
+  {
+    void* ptr = nullptr;
+    if (posix_memalign(&ptr,4096,num*sizeof(T)))
+      throw std::bad_alloc();
+    return reinterpret_cast<T*>(ptr);
+  }
+  void deallocate(T* p, std::size_t num)
+  {
+    free(p);
+  }
+};
 
 __global__ void hello(char *str) {
 	printf("Hello World!\n");
 	printf("buf: %s\n", str);
 }
 
-__global__ void strrev(char *str, int *len) {
-	int size = 0;
-	while (str[size] != '\0') {
-		size++;
-	}
-	for(int i=0;i<size/2;++i) {
-		char t = str[i];
-		str[i] = str[size-1-i];
-		str[size-1-i] = t;
-	}
-	/*
-	printf("buf: %s\n", str);
-	printf("size: %d\n", size);
-	*/
-	*len = size;
-}
-
 int main(int argc, char *argv[])
 {
 	int fd;
 	int ret;
-	int *sys_len;
-	int *gpu_len;
-	char *system_buf;
+
 	char *gpumem_buf;
-	system_buf = (char*)malloc(KB(4));
-	sys_len = (int*)malloc(KB(1));
-	cudaMalloc(&gpumem_buf, KB(4));
-	cudaMalloc(&gpu_len, KB(1));
-        off_t file_offset = 0;
-        off_t mem_offset = 0;
+
 	CUfileDescr_t cf_desc; 
 	CUfileHandle_t cf_handle;
+	CUfileError_t status;
+	status = cuFileDriverOpen();
+	if (status.err != CU_FILE_SUCCESS) {
+			std::cerr << "cufile driver open error: "<<std::endl;
+			return -1;
+	}
 
-	cuFileDriverOpen();
 	fd = open(argv[1], O_RDWR | O_DIRECT);
+	if (fd == -1) {
+        perror("open");
+        return 1;
+    }
+	struct stat st;
+    if (fstat(fd, &st) == -1) {
+        perror("fstat");
+        close(fd);
+        return 1;
+    }	
+	
 
+	int blksize = 512;
+	//uint file_size_in_bytes = ((st.st_size -1)/blksize + 1) *blksize ;
+	uint file_size_in_bytes = GB(1) ;
+	
+	// Print the file size in bytes
+    std::cout << "File size: " << (double)(file_size_in_bytes) / 1024 / 1024 << " MB" << std::endl;
+	
+	std::cout << "Done\n";
+	cudaMalloc(&gpumem_buf, file_size_in_bytes);
+	
+	off_t file_offset = 0;
+	off_t mem_offset = 0;
+	
+	memset((void*)&cf_desc, 0, sizeof(CUfileDescr_t));
 	cf_desc.handle.fd = fd;
 	cf_desc.type = CU_FILE_HANDLE_TYPE_OPAQUE_FD;
 
-	cuFileHandleRegister(&cf_handle, &cf_desc);
-	cuFileBufRegister((char*)gpumem_buf, KB(4), 0);
+	status = cuFileHandleRegister(&cf_handle, &cf_desc);
+	cuFileBufRegister((char*)gpumem_buf, file_size_in_bytes, 0);
 
-	ret = cuFileRead(cf_handle, (char*)gpumem_buf, KB(4), file_offset, mem_offset);
+	std::cout << "Read starts..." << std::endl;	
+	std::chrono::high_resolution_clock::time_point read_start = std::chrono::high_resolution_clock::now();
+
+	ret = cuFileRead(cf_handle, (char*)gpumem_buf, file_size_in_bytes, file_offset, mem_offset);
 	if (ret < 0) {
-		printf("cuFileRead failed : %d", ret); 
+		printf("cuFileRead failed : %d\n", ret); 
+        close(fd);
+        return 1;
 	}
+	close(fd);
+	
+	std::chrono::high_resolution_clock::time_point read_end = std::chrono::high_resolution_clock::now();
+	ulong read_time = std::chrono::duration_cast<std::chrono::microseconds>(read_end - read_start).count();
+	
+	std::cout << "Read ends...\n" << std::endl;	
+
+    double read_microsec_duration = (double) read_time;
+	double read_millisec_duration = read_microsec_duration / 1e3;
+	
+	std::cout << "CPU: " << read_millisec_duration << " ms"
+		<< std::setprecision(6) << std::fixed << "\n";
+		
+	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1)/ (read_millisec_duration*1e3) << " GB/s"
+		<< std::setprecision(6) << std::fixed << "\n";
+
+
+	//strrev<<<1,1>>>(gpumem_buf, gpu_len);
+	std::vector<char, aligned_allocator<char>> system_buf(file_size_in_bytes);
+	cudaMemcpy(&system_buf[0], gpumem_buf, file_size_in_bytes, cudaMemcpyDeviceToHost);
+	std::cout << "Done\n";
+	fd = open(argv[2], O_RDWR | O_DIRECT| O_CREAT, 0644);
+	if (fd == -1) {
+        perror("open");
+        return 1;
+    }
+
+	
+
+	std::cout << "Write starts..." << std::endl;	
+	std::chrono::high_resolution_clock::time_point write_start = std::chrono::high_resolution_clock::now();
+
+	ret = pwrite(fd, (void*)&system_buf[0], file_size_in_bytes, 0);
+	if (ret == -1) {
+		std::cout << "P2P: write() failed, err: " << ret << ", "<< strerror(errno) << ", line: " << __LINE__ << std::endl;
+		return EXIT_FAILURE;
+	}	
 
 	/*
-	hello<<<1,1>>>(gpumem_buf);
-	*/
-	strrev<<<1,1>>>(gpumem_buf, gpu_len);
+	cf_desc.handle.fd = fd;
+	cuFileHandleRegister(&cf_handle, &cf_desc);
 
-	cudaMemcpy(sys_len, gpu_len, KB(1), cudaMemcpyDeviceToHost);
-	printf("sys_len : %d\n", *sys_len); 
-	ret = cuFileWrite(cf_handle, (char*)gpumem_buf, *sys_len, file_offset, mem_offset);
+	ret = cuFileWrite(cf_handle, (char*)gpumem_buf, file_size_in_bytes, file_offset, mem_offset);
 	if (ret < 0) {
-		printf("cuFileWrite failed : %d", ret); 
+		printf("cuFileWrite failed : %d\n", ret); 
+		close(fd);
+        return 1;
 	}
+	*/	
+	std::chrono::high_resolution_clock::time_point write_end = std::chrono::high_resolution_clock::now();
+	ulong write_time = std::chrono::duration_cast<std::chrono::microseconds>(write_end - write_start).count();
+	
+	std::cout << "Write ends...\n" << std::endl;	
 
-	cudaMemcpy(system_buf, gpumem_buf, KB(4), cudaMemcpyDeviceToHost);
-	printf("%s\n", system_buf);
-	printf("See also %s\n", argv[1]);
+    double write_microsec_duration = (double) write_time;
+	double write_millisec_duration = write_microsec_duration / 1e3;
+	
+	std::cout << "CPU: " << write_millisec_duration << " ms"
+		<< std::setprecision(6) << std::fixed << "\n";
+		
+	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (write_millisec_duration*1000) << " GB/s"
+		<< std::setprecision(6) << std::fixed << "\n";
+
+	//printf("%s\n", system_buf);
+	printf("See also %s\n", argv[2]);
 
 	cuFileBufDeregister((char*)gpumem_buf);
 
 	cudaFree(gpumem_buf);
-	cudaFree(gpu_len);
-	free(system_buf);
-	free(sys_len);
 
-	close(fd);
 	cuFileDriverClose();
 }
