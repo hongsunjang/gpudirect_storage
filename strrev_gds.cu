@@ -138,13 +138,15 @@ int main(int argc, char *argv[])
 
 	//strrev<<<1,1>>>(gpumem_buf, gpu_len);
 	std::cout << "Done\n";
-	fd = open(argv[2], O_RDWR | O_DIRECT| O_CREAT, 0644);
+
+
+
+	std::chrono::high_resolution_clock::time_point write_start = std::chrono::high_resolution_clock::now();
+	fd = open(argv[2], O_RDWR | O_CREAT, 0644);
 	if (fd == -1) {
-        perror("open");
+        perror("open for write failed");
         return 1;
     }
-	
-	std::chrono::high_resolution_clock::time_point write_start = std::chrono::high_resolution_clock::now();
 	cf_desc.handle.fd = fd;
 	cuFileHandleRegister(&cf_handle, &cf_desc);
 	ret = cuFileWrite(cf_handle, (char*)gpumem_buf, file_size_in_bytes, file_offset, mem_offset);
@@ -156,7 +158,6 @@ int main(int argc, char *argv[])
 
 	std::chrono::high_resolution_clock::time_point write_end = std::chrono::high_resolution_clock::now();
 	ulong write_time = std::chrono::duration_cast<std::chrono::microseconds>(write_end - write_start).count();
-	
 	std::cout << "Write ends...\n" << std::endl;	
 
     double write_microsec_duration = (double) write_time;
@@ -167,8 +168,7 @@ int main(int argc, char *argv[])
 		
 	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (write_millisec_duration/1e3) << " GiB/s"
 		<< std::setprecision(6) << std::fixed << "\n";
-	
-	fsync(fd);
+	//fsync(fd);
 
 	std::cout << "Write starts..." << std::endl;	
 	std::chrono::high_resolution_clock::time_point write_cpu_start = std::chrono::high_resolution_clock::now();
@@ -196,6 +196,11 @@ int main(int argc, char *argv[])
 	printf("See %s\n", argv[2]);
 
 	cuFileBufDeregister((char*)gpumem_buf);
+	printf("Success here\n");
 	cudaFree(gpumem_buf);
+	printf("Success here\n");
 	cuFileDriverClose();
+	printf("Success here\n");
+
+	return 0;
 }
