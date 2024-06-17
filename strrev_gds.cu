@@ -133,42 +133,27 @@ int main(int argc, char *argv[])
 	std::cout << "CPU: " << read_millisec_duration << " ms"
 		<< std::setprecision(6) << std::fixed << "\n";
 		
-	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1)/ (read_millisec_duration*1e3) << " GB/s"
+	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (read_millisec_duration/1e3) << " GB/s"
 		<< std::setprecision(6) << std::fixed << "\n";
 
-
 	//strrev<<<1,1>>>(gpumem_buf, gpu_len);
-	std::vector<char, aligned_allocator<char>> system_buf(file_size_in_bytes);
-	cudaMemcpy(&system_buf[0], gpumem_buf, file_size_in_bytes, cudaMemcpyDeviceToHost);
 	std::cout << "Done\n";
 	fd = open(argv[2], O_RDWR | O_DIRECT| O_CREAT, 0644);
 	if (fd == -1) {
         perror("open");
         return 1;
     }
-
 	
-
-	std::cout << "Write starts..." << std::endl;	
 	std::chrono::high_resolution_clock::time_point write_start = std::chrono::high_resolution_clock::now();
-
-	ret = pwrite(fd, (void*)&system_buf[0], file_size_in_bytes, 0);
-	if (ret == -1) {
-		std::cout << "P2P: write() failed, err: " << ret << ", "<< strerror(errno) << ", line: " << __LINE__ << std::endl;
-		return EXIT_FAILURE;
-	}	
-
-	/*
 	cf_desc.handle.fd = fd;
 	cuFileHandleRegister(&cf_handle, &cf_desc);
-
 	ret = cuFileWrite(cf_handle, (char*)gpumem_buf, file_size_in_bytes, file_offset, mem_offset);
 	if (ret < 0) {
 		printf("cuFileWrite failed : %d\n", ret); 
 		close(fd);
         return 1;
 	}
-	*/	
+
 	std::chrono::high_resolution_clock::time_point write_end = std::chrono::high_resolution_clock::now();
 	ulong write_time = std::chrono::duration_cast<std::chrono::microseconds>(write_end - write_start).count();
 	
@@ -177,18 +162,40 @@ int main(int argc, char *argv[])
     double write_microsec_duration = (double) write_time;
 	double write_millisec_duration = write_microsec_duration / 1e3;
 	
-	std::cout << "CPU: " << write_millisec_duration << " ms"
+	std::cout << "GDS: " << write_millisec_duration << " ms"
 		<< std::setprecision(6) << std::fixed << "\n";
 		
-	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (write_millisec_duration*1000) << " GB/s"
+	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (write_millisec_duration/1e3) << " GiB/s"
+		<< std::setprecision(6) << std::fixed << "\n";
+	
+	fsync(fd);
+
+	std::cout << "Write starts..." << std::endl;	
+	std::chrono::high_resolution_clock::time_point write_cpu_start = std::chrono::high_resolution_clock::now();
+
+	std::vector<float, aligned_allocator<float>> system_buf(file_size_in_bytes/sizeof(float));
+	cudaMemcpy(&system_buf[0], gpumem_buf, file_size_in_bytes, cudaMemcpyDeviceToHost);
+	ret = pwrite(fd, (void*)&system_buf[0], file_size_in_bytes, 0);
+	if (ret == -1) {
+		std::cout << "P2P: write() failed, err: " << ret << ", "<< strerror(errno) << ", line: " << __LINE__ << std::endl;
+		return EXIT_FAILURE;
+	}	
+	std::chrono::high_resolution_clock::time_point write_cpu_end = std::chrono::high_resolution_clock::now();
+	ulong write_cpu_time = std::chrono::duration_cast<std::chrono::microseconds>(write_cpu_end - write_cpu_start).count();
+
+	double write_cpu_microsec_duration = (double) write_cpu_time;
+	double write_cpu_millisec_duration = write_cpu_microsec_duration / 1e3;
+	
+	std::cout << "CPU: " << write_cpu_millisec_duration << " ms"
+		<< std::setprecision(6) << std::fixed << "\n";
+		
+	std::cout << "Throughput: " << (double)(file_size_in_bytes) / GB(1) / (write_cpu_millisec_duration/1e3) << " GiB/s"
 		<< std::setprecision(6) << std::fixed << "\n";
 
-	//printf("%s\n", system_buf);
-	printf("See also %s\n", argv[2]);
+
+	printf("See %s\n", argv[2]);
 
 	cuFileBufDeregister((char*)gpumem_buf);
-
 	cudaFree(gpumem_buf);
-
 	cuFileDriverClose();
 }
